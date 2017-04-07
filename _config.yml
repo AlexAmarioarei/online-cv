@@ -13,13 +13,13 @@ baseurl: '/online-cv' #change it according to your repository name
 
 
 #Profile information
-name: Alexandru Amarioarei
+name: Alexandru Amărioarei
 tagline: Lector 
 pic: photo_Alex.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
 email: alexandru [dot] amarioarei [at] fmi [dot] unibuc [dot] ro
-phone: +40(0)21-220.77.80 (Interior 275)
+phone: +40(0)21-220.77.80
 website: alexamarioarei.github.io #do not add http://
 github: AlexAmarioarei
 
