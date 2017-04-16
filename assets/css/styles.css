@@ -17,6 +17,20 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.scrollup {
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 84px;
+    right: 10px;
+    display: none;
+    text-indent: -9999px;
+    background: url("../images/icon_top.png") no-repeat;
+    z-index: 2500;
+}
+
 @media (max-width: 767px) {
     body{ 
         padding: 0;
