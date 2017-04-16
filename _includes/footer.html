@@ -4,3 +4,22 @@
                 <small class="copyright">Copyright &#169; 2017 by <a href="https://alexamarioarei.github.io/" target="_blank" rel="nofollow">Alexandru Amărioarei</a></small>
         </div><!--//container-->
     </footer><!--//footer-->
+
+<!-- ******************************* -->
+				<a href="#" class="scrollup" style="display: inline;">Scroll</a>
+				<script type="text/javascript">
+					// SUBIR SCROLL
+					    $(window).scroll(function(){
+					        if ($(this).scrollTop() > 100) {
+					            $('.scrollup').fadeIn();
+					        } else {
+					            $('.scrollup').fadeOut();
+					        }
+					    }); 
+					
+					    $('.scrollup').click(function(){
+					        $("html, body").animate({ scrollTop: 0 }, 600);
+					        return false;
+					    });
+					// END SUBIR SCROLL
+				</script>
